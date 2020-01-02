@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CreateInterviewDto } from './dto/create-interview-dto';
 import { Interview } from '../graphql.schema';
 import { InjectRepository } from '@nestjs/typeorm';
-import { InterviewRespository } from './interivew.reposiroty';
+import { InterviewRespository } from './interview.repository';
 
 @Injectable()
 export class InterviewsService {

@@ -3,9 +3,9 @@ import {
   CreateIntervieweeInput,
 } from 'src/graphql.schema';
 
-export class CreateInterviewDto extends CreateInterviewInput {
+export class CreateInterviewDto {
   // id: string;
-  // title: string;
-  // description: string;
+  title: string;
+  description: string;
   // interviewees: CreateIntervieweeInput[];
 }
